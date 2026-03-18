@@ -7,6 +7,12 @@
 
 ##  Описание проекта
 
+
+<table style="width: 100%; border: none; border-collapse: collapse; margin: 15px 0;">
+  <tr>
+    <td style="vertical-align: top; padding: 10px; width: 50%;">
+      <ul style="padding-left: 20px; margin: 0; line-height: 1.6;">
+
 Проект посвящен решению задачи **автодополнения текстов** — созданию нейросети, которая на основе начала фразы предсказывает её продолжение. 
 Иными словами подготовка нейросети для:
 
@@ -16,19 +22,35 @@
 - Email-композиторов
 - Генерации историй
 
-
 ### Задачи:
 1. Взять датасет с короткими постами
 2. Реализовать и обучить **LSTM модель**
 3. Замерить качество
 4. Сравнить с предобученным **DistilGPT2**
 5. Дать рекомендации разработчикам
+      </ul>
+    </td>
+    <td style="vertical-align: top; padding: 10px; text-align: center; width: 5 Newton;">
+      <img 
+        src="img/im2.jpg"
+        alt="Иллюстрация процесса"
+        style="max-width: 45%; height: auto; border-radius: 8px;"
+      >
+    </td>
+  </tr>
+</table>
 
-## Задача машинного обучения 
-
-Автодополнение на языке ML - многократное предсказание следующего токена**
-
-
+<table style="width: 100%; border: none; border-collapse: collapse; margin: 15px 0;">
+  <tr>
+    <td style="vertical-align: top; padding: 10px; text-align: center; width: 50%;">
+      <img 
+        src="img/im1.jpg"
+        alt="Иллюстрация процесса"
+        style="max-width: 60%; height: auto; border-radius: 8px;"
+      >
+    </td>
+    <td style="vertical-align: top; padding: 10px; width: 50%;">
+      <ul style="padding-left: 20px; margin: 0; line-height: 1.6;">
 
 ### Данные
 - **Источник**: датасет Sentiment140 (твиты)
@@ -55,6 +77,12 @@
 - Предобученный трансформер
 - Параметры: 82M
 - "Дистиллированная" версия GPT2
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
 
 ## Структура проекта
 
@@ -88,6 +116,7 @@
 ```
 
 ## **КЛЮЧЕВЫЕ ВЫВОДЫ ПО ПРОЕКТУ**
+
 
 ### 1. **АНАЛИЗ ДАННЫХ**
 
@@ -149,3 +178,9 @@
 2. Обучить базовую модель на качественных данных
 3. Провести fine-tuning на твитах для стилизации
 4. Получить идеальный баланс качества и аутентичности
+
+<img 
+        src="img/im3.jpg"
+        alt="Иллюстрация процесса"
+        style="max-width: 45%; height: auto; border-radius: 8px;"
+      >
